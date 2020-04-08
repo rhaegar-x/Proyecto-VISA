@@ -1,6 +1,17 @@
-@import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/*@import url(font-awesome.min.css);*/
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");*/
 
+@font-face {
+    font-family: 'aeroregular';
+    src: url('aero/aero-webfont.woff2') format('woff2'),
+         url('aero/aero-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: aero;
+    src: url(aero/aero.ttf) format("truetype");
+}
 /*
 	Caminar by TEMPLATED
 	templated.co @templatedco
@@ -1635,7 +1646,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Poppins", sans-serif;
+		font-family: aero;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -2122,7 +2133,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: aero;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2186,7 +2197,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: aero;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2367,7 +2378,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: aero;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
